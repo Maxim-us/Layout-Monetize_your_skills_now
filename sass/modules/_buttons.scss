@@ -1,0 +1,9 @@
+button{
+	padding: 6px 22px;
+	background-color: $buttuon_color;
+	border: none;
+	@include border-radius(3px);
+	&:hover{
+		background-color: $buttuon_color_hover;
+	}
+}

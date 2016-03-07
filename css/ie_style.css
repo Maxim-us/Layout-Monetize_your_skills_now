@@ -1,0 +1,60 @@
+/*.col-md-2{
+	width: 20%;
+	float: left;
+}
+.col-md-10{
+	width: 80%;
+	float: left;
+}
+.test-menu li{
+	margin-left: 40px;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-4{
+	width: 33.3%;
+	float: left;
+}
+.owl-carousel{
+	height: 400px;
+	overflow: hidden;
+}
+.icons{
+	width: 140px;
+	height: 140px;
+	display: block;
+	margin-left: 0px;
+	margin-bottom: 20px;	
+}
+.icon-a{
+	background-image: url(../img/icon_a.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.icon-a:hover{
+	background-image: url(../img/icon_a.png);
+	background-repeat: no-repeat;
+	background-position: 0px -145px;
+}
+.icon-b{
+	background-image: url(../img/icon_b.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.icon-b:hover{
+	background-image: url(../img/icon_b.png);
+	background-repeat: no-repeat;
+	background-position: 0px -145px;
+}
+.icon-c{
+	background-image: url(../img/icon_c.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.icon-c:hover{
+	background-image: url(../img/icon_c.png);
+	background-repeat: no-repeat;
+	background-position: 0px -145px;
+}

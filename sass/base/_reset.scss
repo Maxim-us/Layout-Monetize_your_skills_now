@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,900,700,500&subset=latin,cyrillic);
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: $body_color;
+}
+a{
+	text-decoration: none;
+}
+/* centering blocks */
+.conteiner-horisontal{
+	padding: 0px;
+	width: 100%;
+	position: relative;	
+	float: left;
+}
+.horisontal-line{
+	max-width: 1349px;		
+	margin: 0px auto;	
+	position: relative;
+	padding: 0px;
+}
+.conteiner-center{
+	width: 100%;
+	max-width: 960px;
+	margin: 0px auto;
+	position: relative;
+	padding: 0px 10px;
+	@include box-sizing;
+}
+/* Lists */
+ul{
+	display: block;
+	& li{
+		list-style-type: none;
+	}
+}
