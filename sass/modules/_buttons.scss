@@ -6,4 +6,7 @@ button{
 	&:hover{
 		background-color: $buttuon_color_hover;
 	}
+	&:active{
+		background-color: #2f9d5d;
+	}
 }
