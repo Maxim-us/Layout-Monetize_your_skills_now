@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,900,700,500&subset=latin,cyrillic);
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  color: #444444;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
 
 a {
   text-decoration: none;
@@ -158,5 +162,41 @@ button {
   background-image: url(../img/next.png);
   background-repeat: no-repeat;
   background-position: top center; }
+
+.mx-text {
+  width: 100%;
+  display: block;
+  margin-top: 45px; }
+  .mx-text h1 {
+    font-size: 35px;
+    font-weight: 300;
+    color: #2c3e50; }
+  .mx-text p {
+    font-size: 15px;
+    font-weight: 300; }
+    @media only screen and (max-width: 768px) {
+      .mx-text p {
+        text-align: justify;
+        padding: 0px 10px; } }
+
+.mx-wrap-photo-block {
+  max-width: 380px;
+  display: block;
+  float: right;
+  margin-top: 45px; }
+  @media only screen and (max-width: 768px) {
+    .mx-wrap-photo-block {
+      float: none;
+      margin: 0px auto; } }
+  .mx-wrap-photo-block > span {
+    font-size: 11px;
+    font-weight: 300;
+    color: #2c3e50; }
+  .mx-wrap-photo-block .mx-foto {
+    width: 100%;
+    display: block;
+    margin-top: 5px; }
+    .mx-wrap-photo-block .mx-foto img {
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

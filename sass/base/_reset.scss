@@ -3,6 +3,8 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: $body_color;
+	color: $text_color;	
+	@include box-sizing;
 }
 a{
 	text-decoration: none;

@@ -1,0 +1,41 @@
+.mx-text{
+	width: 100%;
+	display: block;
+	margin-top: 45px;
+	& h1{
+		font-size: 35px;
+		font-weight: 300;
+		color: $color_dark_blue;
+	}
+	& p{
+		font-size: 15px;
+		font-weight: 300;
+		@media only screen and (max-width: 768px){
+			text-align: justify;
+			padding: 0px 10px;
+		}
+	}
+}
+.mx-wrap-photo-block{
+	max-width: 380px;
+	display: block;
+	float: right;
+	margin-top: 45px;
+	@media only screen and (max-width: 768px){
+		float: none;
+		margin: 0px auto;
+	}
+	& > span{
+		font-size: 11px;
+		font-weight: 300;
+		color: $color_dark_blue
+	}
+	& .mx-foto{
+		width: 100%;
+		display: block;
+		margin-top: 5px;
+		& img{
+			width: 100%;
+		}
+	}
+}
