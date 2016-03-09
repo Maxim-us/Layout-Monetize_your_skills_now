@@ -15,6 +15,8 @@ $(document).ready(function(){
 		dots : true
 	});
 	
+	//select
+	$('.scroll-pane').jScrollPane(); 
 	/*
 	if(navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1){					
 		$(".test-our_services_all").hide();

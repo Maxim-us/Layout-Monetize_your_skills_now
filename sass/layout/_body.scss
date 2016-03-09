@@ -10,6 +10,7 @@
 	& p{
 		font-size: 15px;
 		font-weight: 300;
+		line-height: 1.7;
 		@media only screen and (max-width: 768px){
 			text-align: justify;
 			padding: 0px 10px;
@@ -20,7 +21,7 @@
 	max-width: 380px;
 	display: block;
 	float: right;
-	margin-top: 45px;
+	margin-top: 36px;
 	@media only screen and (max-width: 768px){
 		float: none;
 		margin: 0px auto;
@@ -32,6 +33,8 @@
 	}
 	& .mx-foto{
 		width: 100%;
+		height: 480px;
+		overflow: hidden;
 		display: block;
 		margin-top: 5px;
 		& img{
