@@ -91,15 +91,26 @@ input {
       width: 250px;
       height: 38px; } }
 
+/* button style */
 button {
   padding: 6px 22px;
+  background: -moz-linear-gradient(to bottom, #25a55b, #30d676);
+  background: -webkit-linear-gradient(to bottom, #25a55b, #30d676);
+  background: -o-linear-gradient(to bottom, #25a55b, #30d676);
+  background: -ms-linear-gradient(to bottom, #25a55b, #30d676);
   background: linear-gradient(to bottom, #25a55b, #30d676);
+  background: -webkit-linear-gradient(bottom, #25a55b, #30d676);
   border: none;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px; }
   button:hover {
-    background: linear-gradient(to bottom, #33bb6c, #42f38c); }
+    background: -moz-linear-gradient(to bottom, #33bb6c, #42f38c);
+    background: -webkit-linear-gradient(to bottom, #33bb6c, #42f38c);
+    background: -o-linear-gradient(to bottom, #33bb6c, #42f38c);
+    background: -ms-linear-gradient(to bottom, #33bb6c, #42f38c);
+    background: linear-gradient(to bottom, #33bb6c, #42f38c);
+    background: -webkit-linear-gradient(bottom, #33bb6c, #42f38c); }
   button:active {
     background-color: #2f9d5d; }
 
@@ -214,6 +225,7 @@ button {
   background-repeat: no-repeat;
   background-position: top center; }
 
+/* body */
 .mx-text {
   width: 100%;
   display: block;
@@ -253,6 +265,7 @@ button {
     .mx-wrap-photo-block .mx-foto img {
       width: 100%; }
 
+/* footer */
 .mx-footer-bg {
   background-image: url(../img/footer_bg.png);
   background-repeat: no-repeat;
@@ -278,6 +291,7 @@ button {
       color: #555555; }
 
 .register-butt {
+  width: 120px;
   font-size: 20px;
   font-weight: 400;
   display: block;
