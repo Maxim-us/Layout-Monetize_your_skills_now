@@ -4,7 +4,7 @@ button{
 	padding: 6px 22px;	
 	@include linear-gradient(to bottom, $buttuon_color, $buttuon_color * 1.3); 
 	background: -webkit-linear-gradient(bottom, $buttuon_color, $buttuon_color * 1.3);   
-	border: none;
+	border: none;	
 	@include border-radius(3px);
 	&:hover{
 			@include linear-gradient(to bottom, $buttuon_color_hover, $buttuon_color_hover * 1.3); 
